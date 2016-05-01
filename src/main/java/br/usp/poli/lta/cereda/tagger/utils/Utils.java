@@ -139,7 +139,7 @@ public class Utils {
         options.addOption("s", "search", false, Messages.getMessage("OPT_SEARCH"));
         options.addOption("t", "tags", true, Messages.getMessage("OPT_TAGS"));
         options.addOption("a", "authors", true, Messages.getMessage("OPT_AUTHORS"));
-        options.addOption("d", "display", false, Messages.getMessage("OPT_DISPLAY"));
+        options.addOption("D", "display", false, Messages.getMessage("OPT_DISPLAY"));
 
         return options;
     }

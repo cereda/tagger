@@ -16,12 +16,13 @@ Escola Politécnica, Universidade de São Paulo
 
 usage: tagger [ --entry <file> | --database <file> ] [ --remove | --update
               | --search [ --tags | --authors ] ]
- -a,--authors <arg>   filtro de autores
- -d,--display         exibe metadados da publicação
- -e,--entry <arg>     arquivo/diretório a ser analisado
- -h,--help            exibe a ajuda
- -r,--remove          remove metadados da publicação
- -s,--search          busca de publicações
- -t,--tags <arg>      filtro de etiquetas
- -u,--update          atualiza metadados da publicação
+ -a,--authors <arg>    filtro de autores
+ -d,--database <arg>   arquivo XML (banco de dados)
+ -D,--display          exibe metadados da publicação
+ -e,--entry <arg>      arquivo/diretório a ser analisado
+ -h,--help             exibe a ajuda
+ -r,--remove           remove metadados da publicação
+ -s,--search           busca de publicações
+ -t,--tags <arg>       filtro de etiquetas
+ -u,--update           atualiza metadados da publicação
 ```
